@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="5.2.2" />
+	  <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="5.2.2" />
+	  <PackageReference Include="IdentityExpress.Identity" Version="3.2.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.DataProtection.EntityFrameworkCore" Version="5.0.4" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.4">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.2" />
+	  <PackageReference Include="Rsk.DuendeIdentityServer.AuditEventSink" Version="1.0.0" />
+	  <PackageReference Include="Rsk.Saml.IdentityProvider.Storage.EntityFramework" Version="1.0.0" />
+	  <PackageReference Include="RSK.Audit.EF" Version="1.1.1" />
+	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.2" />
+	  <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.1" />
+	  <PackageReference Include="Rsk.WsFederation.DuendeIdentityServer" Version="5.0.0" />
+	  <PackageReference Include="Rsk.WsFederation.EntityFramework" Version="4.0.0" />
+  </ItemGroup>
+
+</Project>
+
+
+
